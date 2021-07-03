@@ -52,7 +52,7 @@ export default class MyApp extends App {
         <Loader loading={this.state.loading} />
         <MessengerCustomerChat
           pageId="114975533587822"
-          appId="4087670301328715"
+          appId="222335366276258"
         />
       </Provider>
     );
