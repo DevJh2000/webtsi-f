@@ -51,7 +51,7 @@ export default class MyApp extends App {
         {/* Preloader */}
         <Loader loading={this.state.loading} />
         <MessengerCustomerChat
-          pageId="235782320426554"
+          pageId="114975533587822"
           appId="4087670301328715"
         />
       </Provider>
