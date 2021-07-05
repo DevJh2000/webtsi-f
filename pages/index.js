@@ -19,7 +19,7 @@ class Index extends Component {
       <>
         <div
           style={{
-            position: "absolute",
+            position: "relative",
             width: "60px",
             height: "60px",
             bottom: "40px",
