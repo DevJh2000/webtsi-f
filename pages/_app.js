@@ -50,12 +50,19 @@ export default class MyApp extends App {
         <Component {...pageProps} />
         {/* Preloader */}
         <Loader loading={this.state.loading} />
-        <MessengerCustomerChat
-          pageId="114975533587822"
-          appId="222335366276258"
-        />
+
         <div style={{ position: "fixed" }}>
-          <WhatsAppWidget phoneNumber="51937403683" />
+          <ul>
+            <li>
+              <MessengerCustomerChat
+                pageId="114975533587822"
+                appId="222335366276258"
+              />
+            </li>
+            <li>
+              <WhatsAppWidget phoneNumber="51937403683" />
+            </li>
+          </ul>
         </div>
       </Provider>
     );
