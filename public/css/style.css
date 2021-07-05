@@ -281,6 +281,23 @@ textarea.form-control {
   background-color: #24416b;
 }
 
+
+.wasa{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 8%;
+    left: auto;
+    right:  auto;
+    margin-Left: 98%;
+    margin-Right: 1%;
+    color: #FFF;
+    border-Radius: 50px;
+    text-Align: center;
+    font-Size: 30px;
+    z-Index: "100";
+}
+
 /*
 Bg Color Four Area Style
 ======================================================*/
