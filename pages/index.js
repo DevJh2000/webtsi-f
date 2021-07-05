@@ -23,7 +23,7 @@ class Index extends Component {
             width: "60px",
             height: "60px",
             bottom: "50px",
-            right: "1000px",
+            right: "1%",
             color: "#FFF",
             borderRadius: "50px",
             textAlign: "center",
