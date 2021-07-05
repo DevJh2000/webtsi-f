@@ -12,10 +12,27 @@ import Footer from "../components/NewLayouts/Footer";
 import PaternSlaider from "../components/Sections/PaternSlaider";
 import CodeSlider from "../components/Sections/CodeSlider";
 
+import MessengerCustomerChat from "react-messenger-customer-chat";
+import WhatsAppWidget from "react-whatsapp-widget";
+import "react-whatsapp-widget/dist/index.css";
+
 class Index extends Component {
   render() {
     return (
       <div id="index">
+        <div style={{ position: "fixed" }}>
+          <ul>
+            <li>
+              <MessengerCustomerChat
+                pageId="114975533587822"
+                appId="222335366276258"
+              />
+            </li>
+            <li>
+              <WhatsAppWidget phoneNumber="51937403683" />
+            </li>
+          </ul>
+        </div>
         <NewNavbar />
         <MainBanner />
         <CodeSlider />
