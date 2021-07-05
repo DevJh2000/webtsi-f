@@ -296,6 +296,18 @@ textarea.form-control {
     z-Index: "100";
 }
 
+ @media screen and (max-width: 767px) {
+
+
+   .wasa {
+     width: 60px;
+     height: 60px;
+     bottom: 8%;
+    margin-Left: 70%;
+    margin-Right: 1%;
+   }
+ }
+
 /*
 Bg Color Four Area Style
 ======================================================*/
