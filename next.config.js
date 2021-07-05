@@ -8,6 +8,7 @@ module.exports = {
     // REACT_APP_API_URL: "http://localhost:4000",
     REACT_APP_API_PROD: "https://webtsiback2.herokuapp.com",
     // REACT_APP_LOCAL_URL: "http://localhost:3000",
+    REACT_APP_POR_URL: "https://webtsigit.netlify.app",
   },
   trailingSlash: true,
   eslint: {
