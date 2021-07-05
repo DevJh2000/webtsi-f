@@ -17,7 +17,8 @@ import { Provider } from "react-redux";
 import store from "../redux/store";
 
 import MessengerCustomerChat from "react-messenger-customer-chat";
-import ReactWhatsapp from "react-whatsapp";
+import WhatsAppWidget from "react-whatsapp-widget";
+import "react-whatsapp-widget/dist/index.css";
 
 export default class MyApp extends App {
   // Preloader
@@ -46,18 +47,14 @@ export default class MyApp extends App {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <title>Jumpx - React Next AI & IT Startup Template</title>
         </Head>
-
         <Component {...pageProps} />
-
         {/* Preloader */}
         <Loader loading={this.state.loading} />
         <MessengerCustomerChat
           pageId="114975533587822"
           appId="222335366276258"
         />
-        <ReactWhatsapp number="937403683" message="Mensaje">
-          Open Whatsapp
-        </ReactWhatsapp>
+        <WhatsAppWidget phoneNumber="51937403683" />
       </Provider>
     );
   }
