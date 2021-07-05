@@ -16,8 +16,6 @@ import React from "react";
 import { Provider } from "react-redux";
 import store from "../redux/store";
 
-import MessengerCustomerChat from "react-messenger-customer-chat";
-
 export default class MyApp extends App {
   // Preloader
   state = {
@@ -48,10 +46,6 @@ export default class MyApp extends App {
         <Component {...pageProps} />
         {/* Preloader */}
         <Loader loading={this.state.loading} />
-        <MessengerCustomerChat
-          pageId="114975533587822"
-          appId="222335366276258"
-        />
       </Provider>
     );
   }

@@ -11,31 +11,14 @@ import ContactUs from "../components/Sections/ContactUs";
 import Footer from "../components/NewLayouts/Footer";
 import PaternSlaider from "../components/Sections/PaternSlaider";
 import CodeSlider from "../components/Sections/CodeSlider";
-import WhatsAppWidget from "react-whatsapp-widget";
-import "react-whatsapp-widget/dist/index.css";
+import SocialsButtons from "../components/socialsButtons/SocialsButtons";
+
 class Index extends Component {
   render() {
     return (
       <>
-        <div
-          style={{
-            position: "fixed",
-            width: "60px",
-            height: "60px",
-            bottom: "8%",
-            marginLeft: "98%",
-            marginRight: "1%",
-            color: "#FFF",
-            borderRadius: "50px",
-            textAlign: "center",
-            fontSize: "30px",
-
-            zIndex: "100",
-          }}
-        >
-          <WhatsAppWidget phoneNumber="51937403683" />
-        </div>
         <div id="index">
+          <SocialsButtons />
           <NewNavbar />
           <MainBanner />
           <CodeSlider />

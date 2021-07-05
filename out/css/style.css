@@ -282,6 +282,15 @@ textarea.form-control {
 }
 
 
+.wasa{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    max-width: 25rem;
+    max-height: 25rem;
+    bottom: 8%;
+   z-Index: "100";
+}
 
 /*
 Bg Color Four Area Style
