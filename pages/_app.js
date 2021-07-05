@@ -63,7 +63,9 @@ export default class MyApp extends App {
             right: "40px",
           }}
         >
-          <h1>HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</h1>
+          <h1>
+            HOLAAA <WhatsAppWidget phoneNumber="51937403683" />
+          </h1>
         </div>
       </Provider>
     );
