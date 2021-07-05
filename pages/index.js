@@ -17,10 +17,24 @@ class Index extends Component {
   render() {
     return (
       <>
-        <div className="wasa">
+        <div
+          style={{
+            position: "fixed",
+            width: "60px",
+            height: "60px",
+            bottom: "8%",
+            marginLeft: "98%",
+            marginRight: "1%",
+            color: "#FFF",
+            borderRadius: "50px",
+            textAlign: "center",
+            fontSize: "30px",
+
+            zIndex: "100",
+          }}
+        >
           <WhatsAppWidget phoneNumber="51937403683" />
         </div>
-
         <div id="index">
           <NewNavbar />
           <MainBanner />
