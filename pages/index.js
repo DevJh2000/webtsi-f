@@ -17,17 +17,9 @@ class Index extends Component {
   render() {
     return (
       <>
-        <div
-          style={{
-            position: "fixed",
-            width: "60px",
-            height: "60px",
-            bottom: "40px",
-            right: "40px",
-          }}
-        >
+        <div>
           <h1>
-            asdasdasdasdasd <WhatsAppWidget phoneNumber="51937403683" />
+            <WhatsAppWidget phoneNumber="51937403683" />
           </h1>
         </div>
         <div id="index">
