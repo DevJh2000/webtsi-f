@@ -303,7 +303,40 @@ textarea.form-control {
      width: 60px;
      height: 60px;
      bottom: 8%;
-    margin-Left: 70%;
+    margin-Left: 95%;
+    margin-Right: 1%;
+   }
+ }
+ @media screen and (max-width: 1600px) {
+
+
+   .wasa {
+     width: 60px;
+     height: 60px;
+     bottom: 8%;
+    margin-Left: 97%;
+    margin-Right: 1%;
+   }
+ }
+ @media screen and (max-width: 1200px) {
+
+
+   .wasa {
+     width: 60px;
+     height: 60px;
+     bottom: 8%;
+    margin-Left: 95%;
+    margin-Right: 1%;
+   }
+ }
+ @media screen and (max-width: 850px) {
+
+
+   .wasa {
+     width: 60px;
+     height: 60px;
+     bottom: 8%;
+    margin-Left: 95%;
     margin-Right: 1%;
    }
  }
