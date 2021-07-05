@@ -16,6 +16,10 @@ import React from "react";
 import { Provider } from "react-redux";
 import store from "../redux/store";
 
+import MessengerCustomerChat from "react-messenger-customer-chat";
+import WhatsAppWidget from "react-whatsapp-widget";
+import "react-whatsapp-widget/dist/index.css";
+
 export default class MyApp extends App {
   // Preloader
   state = {
@@ -46,6 +50,21 @@ export default class MyApp extends App {
         <Component {...pageProps} />
         {/* Preloader */}
         <Loader loading={this.state.loading} />
+        <MessengerCustomerChat
+          pageId="114975533587822"
+          appId="222335366276258"
+        />
+        <div
+          style={{
+            position: "fixed",
+            width: "60px",
+            height: "60px",
+            bottom: "40px",
+            right: "40px",
+          }}
+        >
+          <h1>HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</h1>
+        </div>
       </Provider>
     );
   }
