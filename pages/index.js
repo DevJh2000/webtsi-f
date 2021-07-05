@@ -11,24 +11,40 @@ import ContactUs from "../components/Sections/ContactUs";
 import Footer from "../components/NewLayouts/Footer";
 import PaternSlaider from "../components/Sections/PaternSlaider";
 import CodeSlider from "../components/Sections/CodeSlider";
-
+import WhatsAppWidget from "react-whatsapp-widget";
+import "react-whatsapp-widget/dist/index.css";
 class Index extends Component {
   render() {
     return (
-      <div id="index">
-        <NewNavbar />
-        <MainBanner />
-        <CodeSlider />
-        <PaternSlaider />
-        <AboutUs />
-        <WhyChooseUs />
-        <Services />
-        <Benefist />
-        <Faq />
-        <Pricing />
-        <ContactUs />
-        <Footer />
-      </div>
+      <>
+        <div
+          style={{
+            position: "fixed",
+            width: "60px",
+            height: "60px",
+            bottom: "40px",
+            right: "40px",
+          }}
+        >
+          <h1>
+            asdasdasdasdasd <WhatsAppWidget phoneNumber="51937403683" />
+          </h1>
+        </div>
+        <div id="index">
+          <NewNavbar />
+          <MainBanner />
+          <CodeSlider />
+          <PaternSlaider />
+          <AboutUs />
+          <WhyChooseUs />
+          <Services />
+          <Benefist />
+          <Faq />
+          <Pricing />
+          <ContactUs />
+          <Footer />
+        </div>
+      </>
     );
   }
 }
