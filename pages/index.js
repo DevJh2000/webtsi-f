@@ -24,11 +24,11 @@ class Index extends Component {
             height: "60px",
             bottom: "40px",
             right: "40px",
-            backgroundColor: "#25d366",
+
             color: "#FFF",
             borderRadius: "50px",
             textAlign: "center",
-            fontSize: "30px",
+
             boxShadow: "2px 2px 3px #999",
             zIndex: "100",
           }}
