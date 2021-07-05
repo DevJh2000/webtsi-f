@@ -55,7 +55,9 @@ export default class MyApp extends App {
           pageId="114975533587822"
           appId="222335366276258"
         />
-        <ReactWhatsapp number="937403683" message="Hello World!!!" />
+        <ReactWhatsapp number="937403683" message="Mensaje">
+          Open Whatsapp
+        </ReactWhatsapp>
       </Provider>
     );
   }
