@@ -22,7 +22,7 @@ class Index extends Component {
             position: "fixed",
             width: "60px",
             height: "60px",
-            bottom: "1000px",
+            bottom: "150px",
             marginLeft: "98%",
             marginRight: "1%",
             color: "#FFF",
