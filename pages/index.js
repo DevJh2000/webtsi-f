@@ -33,9 +33,7 @@ class Index extends Component {
             zIndex: "100",
           }}
         >
-          <h1>
-            <WhatsAppWidget phoneNumber="51937403683" />
-          </h1>
+          <WhatsAppWidget phoneNumber="51937403683" />
         </div>
         <div id="index">
           <NewNavbar />
