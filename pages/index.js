@@ -17,17 +17,18 @@ class Index extends Component {
   render() {
     return (
       <>
-        <div className="wasa">
-          <div className="container">
-            <div className="row">
-              <di className="col-md-11">
-                <div className="1">
+        <div className="container">
+          <div className="row">
+            <di className="col-md-11">
+              <div className="1">
+                <div className="wasa">
                   <WhatsAppWidget phoneNumber="51937403683" />
                 </div>
-              </di>
-            </div>
+              </div>
+            </di>
           </div>
         </div>
+
         <div id="index">
           <NewNavbar />
           <MainBanner />
