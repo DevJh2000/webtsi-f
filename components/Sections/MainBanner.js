@@ -63,7 +63,7 @@ const MainBanner = () => {
                   height: "65rem",
                   maxWidth: "100%",
                   maxHeight: "60rem",
-                  backgroundImage: `${data.imgback})`,
+                  backgroundImage: `url(out/${data.imgback})`,
                 }}
               >
                 <div className="d-table">
