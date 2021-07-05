@@ -54,7 +54,9 @@ export default class MyApp extends App {
           pageId="114975533587822"
           appId="222335366276258"
         />
-        <WhatsAppWidget phoneNumber="51937403683" />
+        <div style={{ position: "fixed" }}>
+          <WhatsAppWidget phoneNumber="51937403683" />
+        </div>
       </Provider>
     );
   }
