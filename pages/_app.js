@@ -17,6 +17,7 @@ import { Provider } from "react-redux";
 import store from "../redux/store";
 
 import MessengerCustomerChat from "react-messenger-customer-chat";
+import ReactWhatsapp from "react-whatsapp";
 
 export default class MyApp extends App {
   // Preloader
@@ -54,6 +55,7 @@ export default class MyApp extends App {
           pageId="114975533587822"
           appId="222335366276258"
         />
+        <ReactWhatsapp number="937403683" message="Hello World!!!" />
       </Provider>
     );
   }

@@ -1,5 +1,5 @@
 import { apiBaseUrl } from "../config/settings";
-console.log(apiBaseUrl);
+
 export const serviceNode = async (path, {}, method = "GET", data = {}) => {
   //Estado inicial del resultado
   let result = {};
