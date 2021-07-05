@@ -19,11 +19,18 @@ class Index extends Component {
       <>
         <div
           style={{
-            position: "relative",
+            position: "fixed",
             width: "60px",
             height: "60px",
             bottom: "40px",
             right: "40px",
+            backgroundColor: "#25d366",
+            color: "#FFF",
+            borderRadius: "50px",
+            textAlign: "center",
+            fontSize: "30px",
+            boxShadow: "2px 2px 3px #999",
+            zIndex: "100",
           }}
         >
           <h1>
