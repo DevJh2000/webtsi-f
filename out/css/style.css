@@ -288,6 +288,7 @@ textarea.form-control {
        height: 100%;
        bottom: 8%;
        right: 1%;
+       margin-left: 5%;
        color: #FFF;
        border-radius: 50px;
        text-align: center;
