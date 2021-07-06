@@ -4,16 +4,9 @@ import WhatsAppWidget from "react-whatsapp-widget";
 import "react-whatsapp-widget/dist/index.css";
 const SocialsButtons = () => {
   return (
-    <section className=" pt-100" id="about">
-      <div className="container fluid">
-        <div className="row align-items-center">
-          <div className="col-md-12">
-            <div className="">
-              <WhatsAppWidget phoneNumber="51937403683" />
-            </div>
-          </div>
-        </div>
-      </div>
+    <section className="wasa pt-100" id="about">
+      <WhatsAppWidget phoneNumber="51937403683" />
+
       <MessengerCustomerChat pageId="114975533587822" appId="222335366276258" />
     </section>
   );
