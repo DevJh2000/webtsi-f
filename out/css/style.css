@@ -284,9 +284,9 @@ textarea.form-control {
 
 .wasa{
        position: fixed;
-       width: 100%;
-       height: 100%;
-       margin-left: -8%;
+       width: 60px;
+       height: 60px;
+       margin-left: -10%;
        bottom: -2%;
        font-size: 10px;
        z-index: 100;
