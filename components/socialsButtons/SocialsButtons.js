@@ -5,11 +5,11 @@ import "react-whatsapp-widget/dist/index.css";
 const SocialsButtons = () => {
   return (
     <section className="wasa pt-100" id="about">
-      <div className="container">
+      <div className="container fluid">
         <div className="row align-items-center">
-          <div className="col-md-11"></div>
+          <div className="col-md-10"></div>
 
-          <div className="col-md-1">
+          <div className="col-md-2">
             <WhatsAppWidget phoneNumber="51937403683" />
           </div>
         </div>
