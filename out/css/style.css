@@ -285,12 +285,21 @@ textarea.form-control {
 .wasa{
        position: fixed;
        float: inline-end;
-       width: 90%;
+       width: 95%;
        height: 101.5%;
        font-size: 25px;
        z-index: 1000;
 }
-
+@media screen and (max-width: 550px) {
+  .wasa {
+     position: fixed;
+     float: inline-end;
+     width: 70%;
+     height: 101.5%;
+     font-size: 25px;
+     z-index: 1000;
+  }
+}
         
 /*
 Bg Color Four Area Style
