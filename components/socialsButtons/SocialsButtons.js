@@ -7,11 +7,11 @@ const SocialsButtons = () => {
     <section className="wasa pt-100" id="about">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-md-12">
+          <div className="col-md-11"></div>
+
+          <div className="col-md-1">
             <WhatsAppWidget phoneNumber="51937403683" />
           </div>
-
-          <div className="col-md-12"></div>
         </div>
       </div>
       <MessengerCustomerChat pageId="114975533587822" appId="222335366276258" />
