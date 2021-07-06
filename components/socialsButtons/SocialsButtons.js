@@ -7,9 +7,10 @@ const SocialsButtons = () => {
     <section className=" pt-100" id="about">
       <div className="container fluid">
         <div className="row align-items-center">
-          <div className="col-md-10"></div>
-          <div className="wasa col-md-2">
-            <WhatsAppWidget phoneNumber="51937403683" />
+          <div className="col-md-12">
+            <div className="">
+              <WhatsAppWidget phoneNumber="51937403683" />
+            </div>
           </div>
         </div>
       </div>
