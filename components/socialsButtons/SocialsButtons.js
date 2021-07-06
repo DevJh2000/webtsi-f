@@ -6,7 +6,12 @@ const SocialsButtons = () => {
   return (
     <>
       <div className="wasa">
-        <WhatsAppWidget phoneNumber="51937403683" />
+        <WhatsAppWidget
+          phoneNumber="51937403683"
+          message="Hello! 👋🏼 \n\nWhat can we do for you?"
+          companyName="WEBTSI"
+          sendButton="Send"
+        />
       </div>
 
       <MessengerCustomerChat pageId="114975533587822" appId="222335366276258" />
