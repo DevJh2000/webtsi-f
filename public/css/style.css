@@ -374,8 +374,8 @@ textarea.form-control {
     height: 100%;
     max-width: 4.4rem;
     max-height: 4.4rem;
-    right: 15%;
-    bottom: 1%;
+    right: 20%;
+    bottom: 1.5%;
     font-size: 25px;
     z-index: 1000;
   }
