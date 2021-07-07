@@ -289,7 +289,7 @@ textarea.form-control {
     height: 100%;
     max-width: 5rem;
     max-height:5rem ;
-    right: 10%;
+    right: 5%;
     bottom: 1%;
     font-size: 25px;
     z-index: 1000;
@@ -303,7 +303,7 @@ textarea.form-control {
    height: 100%;
    max-width: 5rem;
    max-height:5rem;
-   right: 15%;
+   right: 10%;
    bottom: 1%;
    font-size: 25px;
    z-index: 1000;
