@@ -1,0 +1,10 @@
+[ build ]
+   command = " npm run build "
+   publish = " out "
+
+[[ complementos ]]
+   paquete = " @ netlify / plugin-nextjs "
+
+[ contexto . producción . entorno ]
+   NEXT_SERVERLESS = " true "
+   NODE_ENV = " producción "
