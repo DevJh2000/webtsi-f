@@ -42,7 +42,7 @@ export default class MyApp extends App {
       <Provider store={store}>
         <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <title>Jumpx - React Next AI & IT Startup Template</title>
+          <title>Web TSI</title>
         </Head>
         <Component {...pageProps} />
         {/* Preloader */}

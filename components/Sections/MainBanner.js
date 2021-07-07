@@ -1,5 +1,4 @@
-import { useDispatch, useSelector } from "react-redux";
-import { getList } from "../../redux/actions/listData";
+import { useSelector } from "react-redux";
 
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
@@ -26,7 +25,7 @@ const MainBanner = () => {
       "<i class='bx bx-chevron-right'></i>",
     ],
   };
-  const dispatch = useDispatch();
+
   const val =
     useSelector((state) => state.listReducer.listDataBanner.data) || [];
 
@@ -38,13 +37,12 @@ const MainBanner = () => {
   const [list, setList] = useState([]);
 
   useEffect(() => {
-    dispatch(getList("/banner/list"));
     setstate({ display: true });
   }, []);
 
   useEffect(() => {
     setList(val === undefined ? [] : val);
-  }, [, val]);
+  }, [, val, list]);
 
   return (
     <section className="slider-area">
