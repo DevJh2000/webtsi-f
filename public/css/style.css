@@ -309,7 +309,7 @@ textarea.form-control {
    z-index: 1000;
   }
 }
-@media screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) and (min-width: 539px) {
   .wasa {
   position: fixed;
   float: inline-end;
@@ -318,7 +318,7 @@ textarea.form-control {
   max-width: 4.4rem;
   max-height:4.4rem;
   right: 21%;
-  bottom: 2.5%;
+  bottom: 2%;
   font-size: 25px;
   z-index: 1000;
 }
