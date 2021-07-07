@@ -6,6 +6,7 @@ import "../public/css/flaticon.css";
 import "../node_modules/react-modal-video/css/modal-video.min.css";
 import "react-accessible-accordion/dist/fancy-example.css";
 import "../public/css/style.css";
+
 import "../public/css/responsive.css";
 
 import App from "next/app";

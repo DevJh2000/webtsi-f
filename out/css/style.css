@@ -283,21 +283,30 @@ textarea.form-control {
 
 
 .wasa{
-       position: fixed;
-       float: inline-end;
-       width: 95%;
-       height: 101.5%;
-       font-size: 25px;
-       z-index: 1000;
+    position: fixed;
+    float: inline-end;
+    width: 100%;
+    height: 100%;
+    max-width: 5rem;
+    max-height:5rem ;
+    right: 10%;
+    bottom: 1%;
+    font-size: 25px;
+    z-index: 1000;
+
 }
 @media screen and (max-width: 550px) {
   .wasa {
-     position: fixed;
-     float: inline-end;
-     width: 70%;
-     height: 101.5%;
-     font-size: 25px;
-     z-index: 1000;
+   position: fixed;
+   float: inline-end;
+   width: 100%;
+   height: 100%;
+   max-width: 5rem;
+   max-height:5rem;
+   right: 15%;
+   bottom: 1%;
+   font-size: 25px;
+   z-index: 1000;
   }
 }
         
