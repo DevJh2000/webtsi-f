@@ -1,9 +1,6 @@
 import React from "react";
-import { useDispatch } from "react-redux";
-import { getList } from "../../redux/actions/listData";
+
 const Loader = (props) => {
-  const dispatch = useDispatch();
-  dispatch(getList("/banner/list"));
   return (
     <div className={`preloader ${props.loading ? "" : "preloader-deactivate"}`}>
       <div className="d-table">
