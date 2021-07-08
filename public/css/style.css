@@ -281,7 +281,7 @@ textarea.form-control {
   background-color: #24416b;
 }
 
-
+/*Configuracion de estilos para el boton de Whatsapp*/
 .wasa{
     position: fixed;
     float: inline-end;
@@ -295,6 +295,8 @@ textarea.form-control {
     z-index: 1000;
 
 }
+/*Configuracion para distintas resoluciones de pantallas para bton Whatsapp*/
+/*Moviles*/
 @media only screen and (min-width: 1px) and (max-width: 500px) {
   .wasa {
    position: fixed;
@@ -380,11 +382,67 @@ textarea.form-control {
     z-index: 1000;
   }
 }
+/*Computadoras*/
 
+@media only screen and (min-width: 1280px) and (max-width: 1024px) {
+  .wasa {
+    position: fixed;
+    float: inline-end;
+    width: 100%;
+    height: 100%;
+    max-width: 4.4rem;
+    max-height: 4.4rem;
+    right: 15%;
+    bottom: 1.5%;
+    font-size: 25px;
+    z-index: 1000;
+  }
+}
 
+@media only screen and (min-width: 1600px) and (max-width: 1200px) {
+  .wasa {
+    position: fixed;
+    float: inline-end;
+    width: 100%;
+    height: 100%;
+    max-width: 4.4rem;
+    max-height: 4.4rem;
+    right: 15%;
+    bottom: 1.5%;
+    font-size: 25px;
+    z-index: 1000;
+  }
+}
 
+@media only screen and (min-width: 1680px) and (max-width: 1050px) {
+  .wasa {
+    position: fixed;
+    float: inline-end;
+    width: 100%;
+    height: 100%;
+    max-width: 4.4rem;
+    max-height: 4.4rem;
+    right: 15%;
+    bottom: 1.5%;
+    font-size: 25px;
+    z-index: 1000;
+  }
+}
 
-
+@media only screen and (min-width: 1900px) and (max-width: 1200px) {
+  .wasa {
+    position: fixed;
+    float: inline-end;
+    width: 100%;
+    height: 100%;
+    max-width: 4.4rem;
+    max-height: 4.4rem;
+    right: 15%;
+    bottom: 1.5%;
+    font-size: 25px;
+    z-index: 1000;
+  }
+}
         
 /*
 Bg Color Four Area Style

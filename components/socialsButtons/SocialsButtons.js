@@ -8,7 +8,7 @@ const SocialsButtons = () => {
   return (
     <>
       <a
-        href="https://wa.me/51937403683?text=Hola%20estoy%20interesado%en%20lo%20que%20ofrecen%20c:"
+        href="https://wa.me/51937403683?text=Hola%20estoy%20interesado%20en%20lo%20que%20ofrecen%20c:"
         target="_blank"
         className="wasa"
       >
