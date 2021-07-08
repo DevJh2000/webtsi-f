@@ -384,7 +384,7 @@ textarea.form-control {
 }
 /*Computadoras*/
 
-@media only screen and (min-width: 1280px) and (max-width: 1024px) {
+@media  screen and (min-width: 1200px) and (max-width: 1500px) {
   .wasa {
     position: fixed;
     float: inline-end;
@@ -399,7 +399,7 @@ textarea.form-control {
   }
 }
 
-@media only screen and (min-width: 1600px) and (max-width: 1200px) {
+@media  screen and (min-width: 1501px) and (max-width: 1600px) {
   .wasa {
     position: fixed;
     float: inline-end;
@@ -414,7 +414,7 @@ textarea.form-control {
   }
 }
 
-@media only screen and (min-width: 1680px) and (max-width: 1050px) {
+@media  screen and (min-width: 1601px) and (max-width: 1700px) {
   .wasa {
     position: fixed;
     float: inline-end;
@@ -429,7 +429,7 @@ textarea.form-control {
   }
 }
 
-@media only screen and (min-width: 1900px) and (max-width: 1200px) {
+@media  screen and (min-width: 1701px) and (max-width: 1850px) {
   .wasa {
     position: fixed;
     float: inline-end;
