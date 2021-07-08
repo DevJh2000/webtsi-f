@@ -1,4 +1,4 @@
-@media screen and (max-width: 1px) and (max-width: 576px) {
+@media screen and (min-width: 1px) and (max-width: 1650px) {
   .navbar-area .navbar-brand {
     padding-top: 0;
   }
@@ -862,7 +862,7 @@
   }
 }
 
-@media screen and (min-width: 577px) and (max-width: 999px) {
+/* @media screen and (min-width: 577px) and (max-width: 1200px) {
   .main-banner-area {
     padding-bottom: 150px;
   }
@@ -959,7 +959,7 @@
   .service-card {
     padding: 20px 15px;
   }
-}
+} */
 
 /* @media screen and (min-width: 768px) and (max-width: 999px) {
   .navbar-area nav .container {
@@ -1375,7 +1375,7 @@
     left: auto;
     right: 0;
   }
-} */
+}
 
 @media screen and (min-width : 1000px) and (max-width : 1200px) {
   .navbar-area nav .navbar-nav .nav-item a {
@@ -1615,9 +1615,9 @@
   .single-offer i {
     left: 20px;
   }
-}
+} */
 
-@media screen and (min-width: 1500px) and (max-width : 1600px) {
+@media screen and (min-width: 1651px) and (max-width : 1699px) {
   .main-banner-area.main-banner-area-one {
     padding-top: 250px;
     padding-bottom: 350px;
