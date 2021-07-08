@@ -393,7 +393,7 @@ textarea.form-control {
     max-width: 4.4rem;
     max-height: 4.4rem;
     right: 10%;
-    bottom: 1.5%;
+
     font-size: 25px;
     z-index: 1000;
   }
@@ -407,7 +407,7 @@ textarea.form-control {
     max-width: 4.4rem;
     max-height: 4.4rem;
     right: 10%;
-    bottom: 1.5%;
+
     font-size: 25px;
     z-index: 1000;
   }
@@ -422,7 +422,7 @@ textarea.form-control {
     max-width: 4.4rem;
     max-height: 4.4rem;
     right: 7%;
-    bottom: 1.5%;
+   
     font-size: 25px;
     z-index: 1000;
   }
@@ -437,7 +437,7 @@ textarea.form-control {
     max-width: 4.4rem;
     max-height: 4.4rem;
     right: 5%;
-    bottom: 1.5%;
+    
     font-size: 25px;
     z-index: 1000;
   }
@@ -452,13 +452,13 @@ textarea.form-control {
     max-width: 4.4rem;
     max-height: 4.4rem;
     right: 5%;
-    bottom: 1.5%;
+   
     font-size: 25px;
     z-index: 1000;
   }
 }
 /*Largo*/
-@media  screen and (min-height: 700px) and (max-height: 1000px) {
+@media  screen and (min-height: 1px) and (max-height: 900px) {
   .wasa {
     position: fixed;
     float: inline-end;
