@@ -1,4 +1,4 @@
-@media screen and (max-width: 1px) and (max-width: 999px) {
+@media screen and (min-width: 1px) and (max-width: 999px) {
   .navbar-area .navbar-brand {
     padding-top: 0;
   }
