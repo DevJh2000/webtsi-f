@@ -54,7 +54,11 @@ class NewNavbar extends Component {
                 duration={500}
                 className="navbar-brand"
               >
-                <img src="/images/white-logo.png" alt="logo" />
+                <img
+                  className="imgPngLOGO"
+                  src="/images/WebtsiLogo.png"
+                  alt="logo"
+                />
               </NewLink>
 
               <button
