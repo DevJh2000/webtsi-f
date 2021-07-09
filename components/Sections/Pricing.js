@@ -13,7 +13,7 @@ const Pricing = () => {
   const [color, setColor] = useState({ stateM: false, stateA: false });
   //cargar planeeeeesadasdasds
   useEffect(() => {
-    dispatch(getList("/task/list", "mensual"));
+    dispatch(getList("/task/list", "Mensual"));
     setColor({ ...color, stateM: true });
   }, []);
 
@@ -24,7 +24,7 @@ const Pricing = () => {
   //Selecionar plan asdassddassddsasda
   const openTabSection = (evt, typePlan) => {
     evt.preventDefault();
-    if (typePlan === "mensual") {
+    if (typePlan === "Mensual") {
       setColor({ stateM: true, stateA: false });
     } else {
       setColor({ stateM: false, stateA: true });
@@ -49,14 +49,14 @@ const Pricing = () => {
           {/* Tabs */}
           <ul className="tabs">
             <li
-              onClick={(e) => openTabSection(e, "mensual")}
+              onClick={(e) => openTabSection(e, "Mensual")}
               className={color.stateM === true ? "current" : ""}
             >
               <span>Monthly</span>
             </li>
 
             <li
-              onClick={(e) => openTabSection(e, "anual")}
+              onClick={(e) => openTabSection(e, "Anual")}
               className={color.stateA === true ? "current" : ""}
             >
               <span>Yearly</span>
@@ -78,7 +78,7 @@ const Pricing = () => {
                               S/.{data.planNames[0].price}
                               <sub>
                                 /
-                                {data.planNames[0].typplan === "mensual"
+                                {data.planNames[0].typplan === "Mensual"
                                   ? "M"
                                   : "A"}
                               </sub>
