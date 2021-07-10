@@ -84,8 +84,7 @@ const Pricing = () => {
                                   return (
                                     <li key={index}>
                                       <i className="bx bx-check"></i>
-                                      te brindamos {profit.profitsname} con
-                                      profecionalismo y experiencia
+                                      {profit.profitsname}
                                     </li>
                                   );
                                 })}
