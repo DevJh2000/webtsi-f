@@ -47,14 +47,14 @@ const Pricing = () => {
               onClick={(e) => openTabSection(e, "mensual")}
               className={color.stateM === true ? "current" : ""}
             >
-              <span>Monthly</span>
+              <span>MENSUAL</span>
             </li>
 
             <li
-              onClick={(e) => openTabSection(e, "mnual")}
+              onClick={(e) => openTabSection(e, "anual")}
               className={color.stateA === true ? "current" : ""}
             >
-              <span>Yearly</span>
+              <span>ANUAL</span>
             </li>
           </ul>
           <div className="tab_content">
