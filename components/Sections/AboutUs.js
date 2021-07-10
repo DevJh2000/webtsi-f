@@ -15,7 +15,7 @@ class AboutUs extends Component {
 
             <div className="col-lg-6">
               <div className="about-content">
-                <span>ACERCA DE NOSOTROS:</span>
+                <span>ACERCA DE NOSOTROS</span>
                 <h2>
                   Completamos cada proyecto con un cuidado adicional según las
                   necesidades del cliente

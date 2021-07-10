@@ -6,7 +6,7 @@ class Services extends Component {
       <section className="offer-area pt-100 pb-70" id="serv">
         <div className="container">
           <div className="section-title">
-            <span>Servicios</span>
+            <span>SERVICIOS</span>
             <h2>Nuestros Servicios Profesionales para Usted</h2>
           </div>
 

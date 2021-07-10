@@ -8,8 +8,8 @@ class WhyChooseUs extends Component {
           <div className="section-title">
             <span>¿POR QUÉ ELEGIRNOS?</span>
             <h2>
-              Nuestra Plataforma cuenta con mas de 200 funcionalidades que te
-              harán ahorrar tiempo y vender máso
+              Nuestra Plataforma cuenta con más de 200 funcionalidades que te
+              harán ahorrar tiempo y vender más
             </h2>
           </div>
 

@@ -36,13 +36,8 @@ const Pricing = () => {
     <section className="pricing-area pt-100 pb-70" id="pri">
       <div className="container">
         <div className="section-title">
-          <span>Tarifas</span>
+          <span>TARIFAS</span>
           <h2>Precios al alcance de tus bolcillos </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. ipsum
-            suspendisse.
-          </p>
         </div>
 
         <div className="tab quote-list-tab">

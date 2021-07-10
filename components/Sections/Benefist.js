@@ -6,7 +6,8 @@ const Benefist = () => {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6">
-            <div className="business-content">
+            <div className="section-title">
+              <span>CONSIGUE</span>
               <h2>BENEFICIOS</h2>
             </div>
 
@@ -29,7 +30,7 @@ const Benefist = () => {
             </div>
 
             <div className="business-btn">
-              <a className="default-btn">Know Details</a>
+              <a className="default-btn">Conozca los detalles</a>
             </div>
           </div>
 
@@ -40,7 +41,7 @@ const Benefist = () => {
                   <h2>
                     <span className="target">95%</span>
                   </h2>
-                  <p>Project Completed</p>
+                  <p>Proyecto completado</p>
                 </div>
               </div>
 
@@ -49,7 +50,7 @@ const Benefist = () => {
                   <h2>
                     <span className="target">90%</span>
                   </h2>
-                  <p>Design</p>
+                  <p>Diseño</p>
                 </div>
               </div>
 
@@ -58,7 +59,7 @@ const Benefist = () => {
                   <h2>
                     <span className="target">85%</span>
                   </h2>
-                  <p>Happy Clients</p>
+                  <p>Clientes felices</p>
                 </div>
               </div>
 
@@ -67,7 +68,7 @@ const Benefist = () => {
                   <h2>
                     <span className="target">80</span>
                   </h2>
-                  <p>Award Win</p>
+                  <p>Premio ganador</p>
                 </div>
               </div>
             </div>
