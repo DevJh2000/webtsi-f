@@ -70,6 +70,7 @@ const MainBanner = () => {
         activeIndex={bindex}
         onSelect={handleSelect}
         fade={true}
+        defaultActiveIndex={0}
         nextLabel=""
         prevLabel=""
         pause="hover"
