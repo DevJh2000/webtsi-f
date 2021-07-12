@@ -72,8 +72,6 @@ const MainBanner = () => {
         nextLabel=""
         prevLabel=""
         pause="hover"
-        slide={true}
-        wrap={true}
         className="arduix-slider"
       >
         {state

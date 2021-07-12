@@ -366,20 +366,6 @@ textarea.form-control {
   }
 }
 
-@media only screen and (height: 220px) and (width: 350px) {
-  .wasa {
-    position: fixed;
-    float: inline-end;
-    width: 100%;
-    height: 100%;
-    max-width: 4.4rem;
-    max-height: 4.4rem;
-    right: 15%;
-    bottom: 5%;
-    font-size: 25px;
-    z-index: 1000;
-  }
-}
 @media only screen and (height: 360px) and (width: 640px) {
   .wasa {
     position: fixed;
