@@ -66,10 +66,10 @@ const MainBanner = () => {
   return (
     <section className="slider-area">
       <Carousel
+        slide={false}
         variant="dark"
         activeIndex={bindex}
         onSelect={handleSelect}
-        fade={true}
         defaultActiveIndex={0}
         nextLabel=""
         prevLabel=""
