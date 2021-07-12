@@ -74,6 +74,8 @@ const MainBanner = () => {
         nextLabel=""
         prevLabel=""
         pause="hover"
+        touch={true}
+        wrap={true}
         className="arduix-slider"
       >
         {state
