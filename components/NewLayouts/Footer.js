@@ -23,15 +23,35 @@ class Footer extends Component {
                       <a
                         target="_blank"
                         href="https://www.facebook.com/tsiperueirl"
-                        target="blank"
                       >
                         <i className="bx bxl-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        target="_blank"
+                        href="https://www.instagram.com/faqtureperu/?hl=es"
+                      >
+                        <i className="bx bxl-instagram"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        target="_blank"
+                        href="https://www.youtube.com/channel/UC82-Pi9Q9vXBkbtWacidW_g"
+                      >
+                        <i className="bx bxl-youtube"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a target="_blank" href="https://twitter.com/ParaEirl">
+                        <i className="bx bxl-twitter"></i>
                       </a>
                     </li>
                     {/* <li>
                       <Link href="/#">
                         <a target="_blank">
-                          <i className="bx bxl-twitter"></i>
+                          <i className="bx bxl-instagram"></i>
                         </a>
                       </Link>
                     </li>

@@ -11,7 +11,10 @@ class ContactInfo extends Component {
                 <i className="bx bx-envelope"></i>
                 <h5>Correo para contactos:</h5>
                 <p>mwleonc@gmail.com</p>
-                <p>mwleonc@gmail.com</p>
+                <p>faqtureserver@gmail.com</p>
+                <p>support@tsi.pe</p>
+                <p>gerencia@tsi.pe</p>
+                <p>ventas@tsi.pe</p>
               </div>
             </div>
 
@@ -19,8 +22,9 @@ class ContactInfo extends Component {
               <div className="single-contact-info">
                 <i className="bx bx-phone-call"></i>
                 <h5>Llamenos al:</h5>
-                <p>Tel. + (12) 1800-567-8990</p>
-                <p>Tel. + (124) 152-567-9874</p>
+                <p>Cel. + (51) 998 407 723 </p>
+                <p>Cel. + (51) 956 455 974 </p>
+                <p>Cel. + (51)978 580 802</p>
               </div>
             </div>
 
@@ -28,9 +32,7 @@ class ContactInfo extends Component {
               <div className="single-contact-info">
                 <i className="bx bx-location-plus"></i>
                 <h5>San Martin - Moyobamba</h5>
-                <p>
-                  jr. Callao por la entrada a recodo por la bajadita del mercado
-                </p>
+                <p>jr. Callao N°931</p>
               </div>
             </div>
           </div>
