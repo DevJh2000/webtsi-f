@@ -51,7 +51,7 @@ const MainBanner = () => {
   useEffect(() => {
     dispatch(getList("/banner/list"));
     setstate({ display: true });
-  }, [, list]);
+  }, []);
 
   //UseEffect para controlar el numero de veces de ejecucion de almacenamiento de datos traidos del store
   useEffect(() => {
