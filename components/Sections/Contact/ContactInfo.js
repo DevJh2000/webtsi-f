@@ -10,11 +10,9 @@ class ContactInfo extends Component {
               <div className="single-contact-info">
                 <i className="bx bx-envelope"></i>
                 <h5>Correo para contactos:</h5>
-                <p>mwleonc@gmail.com</p>
-                <p>faqtureserver@gmail.com</p>
+                <p>mwleonc@gmail.com - gerencia@tsi.pe</p>
+                <p>faqtureserver@gmail.com - ventas@tsi.pe</p>
                 <p>support@tsi.pe</p>
-                <p>gerencia@tsi.pe</p>
-                <p>ventas@tsi.pe</p>
               </div>
             </div>
 

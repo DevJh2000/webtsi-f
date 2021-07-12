@@ -12,9 +12,19 @@ class Footer extends Component {
             <div className="row">
               <div className="col-lg-3 col-md-6">
                 <div className="single-widget">
-                  <a href="/" className="logo">
-                    <img src="/images/WebtsiLogo.png" alt="Image" />
-                  </a>
+                  <NewLink
+                    activeClass="active"
+                    to="index"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className="navbar-brand"
+                  >
+                    <a href="/" className="logo">
+                      <img src="/images/WebtsiLogo.png" alt="Image" />
+                    </a>
+                  </NewLink>
 
                   <p>TSI crecemos junto contigo</p>
 
@@ -267,20 +277,25 @@ class Footer extends Component {
                     <li className="address">
                       <i className="flaticon-call"></i>
                       <span>Telefono</span>
-                      Tel. + (12) 1800-567-8990
+                      <p>Cel. + (51) 998 407 723 </p>
+                      <p>Cel. + (51) 956 455 974 </p>
+                      <p>Cel. + (51)978 580 802</p>
                     </li>
 
                     <li className="address">
                       <i className="flaticon-envelope"></i>
                       <span>E-mail</span>
-                      mwleonc@gmail.com
+                      <p>mwleonc@gmail.com </p>
+                      <p>gerencia@tsi.pe </p>
+                      <p>faqtureserver@gmail.com</p>
+                      <p>ventas@tsi.pe</p>
+                      <p>support@tsi.pe</p>
                     </li>
 
                     <li className="address">
                       <i className="flaticon-maps-and-flags"></i>
                       <span>Direccion</span>
-                      jr. Callao por la entrada a recodo por la bajadita del
-                      mercado
+                      jr. Callao N°931
                     </li>
                   </ul>
                 </div>
@@ -308,14 +323,10 @@ class Footer extends Component {
                 <div className="privacy">
                   <ul>
                     <li>
-                      <Link href="/terms-conditions">
-                        <a>Terms & Conditions</a>
-                      </Link>
+                      <a>Terms & Conditions</a>
                     </li>
                     <li>
-                      <Link href="/privacy-policy">
-                        <a>Privacy Policy</a>
-                      </Link>
+                      <a>Privacy Policy</a>
                     </li>
                   </ul>
                 </div>

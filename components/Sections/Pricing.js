@@ -125,7 +125,7 @@ const Pricing = () => {
                 </li>
                 <li>
                   <i className="flaticon-checked"></i>
-                  REGIMEN GENERAL (OSE ADQUIRIR CERTIFICADO)
+                  REGIMEN GENERAL (CONSULTAR PLANES OSE)
                 </li>
                 <li>
                   <i className="flaticon-checked"></i>

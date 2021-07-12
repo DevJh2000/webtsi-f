@@ -20,7 +20,7 @@ const SocialsButtons = () => {
         <img src={wasa.src}></img>
       </a>
 
-      <MessengerCustomerChat pageId="114975533587822" appId="222335366276258" />
+      <MessengerCustomerChat pageId="235782320426554" appId="222335366276258" />
     </>
   );
 };

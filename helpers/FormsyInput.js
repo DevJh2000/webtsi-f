@@ -29,7 +29,7 @@ const FormsyInput = (props) => {
   const changeValue = (e) => {
     if (props.accept && props.accept !== "") {
       if (!validateInput(props.accept, e.currentTarget.value)) {
-        return;
+        return console.log("SI ES");
       }
     }
     props.setValue(e.currentTarget.value);

@@ -133,6 +133,7 @@ const ContactForm = () => {
                         <textarea
                           name="message"
                           className="form-control"
+                          type="textarea"
                           id="message"
                           cols="30"
                           rows="5"
@@ -147,9 +148,18 @@ const ContactForm = () => {
                       <button
                         type="submit"
                         className="default-btn btn-two"
-                        disabled={!buttonState}
+                        disabled={
+                          !buttonState || formValuesEmail.message.trim() === ""
+                        }
+                        style={
+                          !buttonState || formValuesEmail.message.trim() === ""
+                            ? { backgroundColor: "red" }
+                            : {}
+                        }
                       >
-                        Enviar
+                        {!buttonState || formValuesEmail.message.trim() === ""
+                          ? "¡complete todos los campos!"
+                          : "Enviar"}
                       </button>
                     </div>
                   </div>
