@@ -3170,6 +3170,11 @@ Footer Top Area Style
   margin-bottom: 0;
 }
 
+.single-widget ul li .linkfooter a {
+  color: #d9d6d6;
+  position: relative;
+  padding-left: 20px;
+}
 .single-widget ul li a {
   color: #d9d6d6;
   position: relative;
@@ -3179,10 +3184,15 @@ Footer Top Area Style
 .single-widget ul li a .right-icon {
   font-size: 20px;
   position: absolute;
-  top: 3px;
+  top: 20%;
   left: 0;
 }
 
+.single-widget ul li .linkfooter a:hover {
+  color: #1dd3f8;
+  -webkit-transform: translateX(5px);
+  transform: translateX(5px);
+}
 .single-widget ul li a:hover {
   color: #1dd3f8;
   -webkit-transform: translateX(5px);
@@ -3947,7 +3957,7 @@ Brand Area Serve Area Style
   margin-bottom: 50px;
 }
 .brand {
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -4334,6 +4344,9 @@ Home Four Section Title Color Area Style
 /*
 About Area Four Style
 ======================================================*/
+.about-area {
+  background-color: #f2fefe;
+}
 .about-area-four .about-content h2 {
   color: #ffffff;
 }

@@ -100,7 +100,40 @@ const Pricing = () => {
               </div>
             </div>
           </div>
-          ;
+        </div>
+        <br></br>
+        <br></br>
+        <div className="row">
+          <div className="col-md-12">
+            <div className="col-lg-6 col-sm-6 about-content">
+              <ul>
+                <li>
+                  <i className="flaticon-checked"></i>
+                  <b>
+                    ERPS MAS ESPECIALIZADOS ( A MEDIDA CONSULTAR PRECIOS Y
+                    SOLICITAR REUNIÓN)
+                  </b>
+                </li>
+                <li>
+                  <i className="flaticon-checked"></i>
+                  INCLUYE CAPACITACION SOPORTE GRATUITO
+                </li>
+                <li>
+                  <i className="flaticon-checked"></i>
+                  REGIMEN RUS - ESPECIAL Y MYPE ( CERTIFICADO DIGITAL GRATIS
+                  SUNAT 3 AÑOS)
+                </li>
+                <li>
+                  <i className="flaticon-checked"></i>
+                  REGIMEN GENERAL (OSE ADQUIRIR CERTIFICADO)
+                </li>
+                <li>
+                  <i className="flaticon-checked"></i>
+                  COMPROBANTES ILIMITADOS
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>

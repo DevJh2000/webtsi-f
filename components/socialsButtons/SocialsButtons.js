@@ -1,10 +1,15 @@
 import React from "react";
 import MessengerCustomerChat from "react-messenger-customer-chat";
-import WhatsAppWidget from "react-whatsapp-widget";
 import "react-whatsapp-widget/dist/index.css";
 
 import wasa from "../../public/images/whatsapp.png";
 const SocialsButtons = () => {
+  const mesa = {
+    res: "wa.me/51998407723",
+    text: {
+      ti: "** ERPS MAS ESPECIALIZADOS ( A MEDIDA CONSULTAR PRECIOS Y SOLICITAR REUNIÓN)",
+    },
+  };
   return (
     <>
       <a

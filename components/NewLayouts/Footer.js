@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import Link from "next/link";
+import { Link } from "react-scroll";
+const NewLink = Link;
 
 class Footer extends Component {
   render() {
@@ -24,11 +25,13 @@ class Footer extends Component {
 
                   <ul className="social-icon">
                     <li>
-                      <Link href="/#">
-                        <a target="_blank">
-                          <i className="bx bxl-facebook"></i>
-                        </a>
-                      </Link>
+                      <a
+                        target="_blank"
+                        href="https://www.facebook.com/tsiperueirl"
+                        target="blank"
+                      >
+                        <i className="bx bxl-facebook"></i>
+                      </a>
                     </li>
                     <li>
                       <Link href="/#">
@@ -64,55 +67,121 @@ class Footer extends Component {
 
               <div className="col-lg-3 col-md-6">
                 <div className="single-widget">
-                  <h3>Services</h3>
+                  <h3>Secciones</h3>
                   <ul>
                     <li>
-                      <Link href="/service-details">
+                      <NewLink
+                        activeClass="active"
+                        to="about"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="navbar-brand"
+                      >
                         <a>
                           <i className="right-icon bx bx-chevrons-right"></i>
-                          Big Data
+                          Acerca de Nosotros
                         </a>
-                      </Link>
+                      </NewLink>
                     </li>
                     <li>
-                      <Link href="/service-details">
+                      <NewLink
+                        activeClass="active"
+                        to="whych"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="navbar-brand"
+                      >
                         <a>
                           <i className="right-icon bx bx-chevrons-right"></i>
-                          UI/UX Design
+                          ¿Por que Elegirnos?
                         </a>
-                      </Link>
+                      </NewLink>
                     </li>
                     <li>
-                      <Link href="/service-details">
+                      <NewLink
+                        activeClass="active"
+                        to="serv"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="navbar-brand"
+                      >
                         <a>
                           <i className="right-icon bx bx-chevrons-right"></i>
-                          Desktop Application
+                          Servicios
                         </a>
-                      </Link>
+                      </NewLink>
+                    </li>
+
+                    <li>
+                      <NewLink
+                        activeClass="active"
+                        to="ben"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="navbar-brand"
+                      >
+                        <a>
+                          <i className="right-icon bx bx-chevrons-right"></i>
+                          Beneficios
+                        </a>
+                      </NewLink>
                     </li>
                     <li>
-                      <Link href="/service-details">
+                      <NewLink
+                        activeClass="active"
+                        to="faq"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="navbar-brand"
+                      >
                         <a>
                           <i className="right-icon bx bx-chevrons-right"></i>
-                          Mobile Application
+                          Preguntas
                         </a>
-                      </Link>
+                      </NewLink>
                     </li>
                     <li>
-                      <Link href="/service-details#">
+                      <NewLink
+                        activeClass="active"
+                        to="pri"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="navbar-brand"
+                      >
                         <a>
                           <i className="right-icon bx bx-chevrons-right"></i>
-                          Product Engineering
+                          Precios
                         </a>
-                      </Link>
+                      </NewLink>
                     </li>
+
                     <li>
-                      <Link href="/service-details">
+                      <NewLink
+                        activeClass="active"
+                        to="contus"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="navbar-brand"
+                      >
                         <a>
                           <i className="right-icon bx bx-chevrons-right"></i>
-                          Machine Learning
+                          Contactanos
                         </a>
-                      </Link>
+                      </NewLink>
                     </li>
                   </ul>
                 </div>

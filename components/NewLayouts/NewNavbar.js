@@ -52,7 +52,7 @@ class NewNavbar extends Component {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="navbar-brand"
+                className="linkfooter"
               >
                 <img
                   className="imgPngLOGO"
@@ -85,7 +85,7 @@ class NewNavbar extends Component {
                       smooth={true}
                       offset={-70}
                       duration={500}
-                      className="navbar-brand"
+                      className="linkfooter"
                     >
                       ACERCA DE NOSOTROS
                     </NewLink>
@@ -98,7 +98,7 @@ class NewNavbar extends Component {
                       smooth={true}
                       offset={-70}
                       duration={500}
-                      className="navbar-brand"
+                      className="linkfooter"
                     >
                       ¿POR QUÉ ELEGIRNOS?
                     </NewLink>
@@ -111,7 +111,7 @@ class NewNavbar extends Component {
                       smooth={true}
                       offset={-70}
                       duration={500}
-                      className="navbar-brand"
+                      className="linkfooter"
                     >
                       SERVICIOS
                     </NewLink>
@@ -125,7 +125,7 @@ class NewNavbar extends Component {
                       smooth={true}
                       offset={-70}
                       duration={500}
-                      className="navbar-brand"
+                      className="linkfooter"
                     >
                       BENEFICIOS
                     </NewLink>
@@ -138,7 +138,7 @@ class NewNavbar extends Component {
                       smooth={true}
                       offset={-70}
                       duration={500}
-                      className="navbar-brand"
+                      className="linkfooter"
                     >
                       PREGUNTAS
                     </NewLink>
@@ -151,7 +151,7 @@ class NewNavbar extends Component {
                       smooth={true}
                       offset={-70}
                       duration={500}
-                      className="navbar-brand"
+                      className="linkfooter"
                     >
                       Precios
                     </NewLink>
@@ -165,7 +165,7 @@ class NewNavbar extends Component {
                       smooth={true}
                       offset={-70}
                       duration={500}
-                      className="navbar-brand"
+                      className="linkfooter"
                     >
                       Contactanos
                     </NewLink>

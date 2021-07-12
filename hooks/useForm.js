@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+// Capturar los valores enviados de un formulario y controla el cambio de estado del mismo
 export const useForm = (initialValues = {}) => {
   const [formValues, setForm] = useState(initialValues);
 

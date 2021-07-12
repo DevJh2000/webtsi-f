@@ -56,7 +56,7 @@ const MainBanner = () => {
   //UseEffect para controlar el numero de veces de ejecucion de almacenamiento de datos traidos del store
   useEffect(() => {
     setList(val === undefined ? [] : val);
-  }, [val]);
+  }, [, val]);
 
   const handleSelect = (selectedIndex, e) => {
     setBindex(selectedIndex);
@@ -80,7 +80,7 @@ const MainBanner = () => {
           ? list.length > 0
             ? list.map((data, index) => {
                 return (
-                  <Carousel.Item>
+                  <Carousel.Item key={index}>
                     <div
                       key={index}
                       className="arduix-slider-item"

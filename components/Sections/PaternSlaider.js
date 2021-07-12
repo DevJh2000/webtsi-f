@@ -2,8 +2,8 @@ import React from "react";
 
 const PaternSlaider = () => {
   const style = {
-    width: "559px",
-    heidth: "153px",
+    width: "100%",
+    heidth: "100%",
     marginLeft: "2%",
   };
   return (

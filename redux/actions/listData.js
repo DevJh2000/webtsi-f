@@ -1,9 +1,9 @@
 import types from "../../config/typesReducer";
 import { serviceNode } from "../../service/serviceNode";
 import Swal from "sweetalert2";
-
+//Almacenamiento de la data en el store
 export const getList = (rut, param = "", met = "GET", dat = {}, mess = {}) => {
-  //Config de alertas
+  //Config de alertas Sweet Alert
   const Toast = Swal.mixin({
     toast: true,
     position: "bottom-end",
@@ -11,6 +11,7 @@ export const getList = (rut, param = "", met = "GET", dat = {}, mess = {}) => {
     timer: 3000,
     timerProgressBar: true,
   });
+  //Se recibe la data enviada del componente para ser enviada a la funcion que generara el dispatch
   return (dispatch) => {
     if (param === "") {
       setList(dispatch, { type: types.loading });
@@ -52,7 +53,7 @@ export const getList = (rut, param = "", met = "GET", dat = {}, mess = {}) => {
         console.log(e);
         return setList(dispatch, {
           type: types.error,
-          payload: "Cagao",
+          payload: "Faild",
         });
       }
     } else {
@@ -71,13 +72,13 @@ export const getList = (rut, param = "", met = "GET", dat = {}, mess = {}) => {
         console.log(e);
         return setList(dispatch, {
           type: types.error,
-          payload: "Cagao",
+          payload: "Faild",
         });
       }
     }
   };
 };
-
+//Se recibe la data y se envia a los actions para ser enviadas al store
 export const setList = (dispatch, json) => {
   dispatch(json);
 };
