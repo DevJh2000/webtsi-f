@@ -69,6 +69,7 @@ const MainBanner = () => {
         variant="dark"
         activeIndex={bindex}
         onSelect={handleSelect}
+        fade={true}
         nextLabel=""
         prevLabel=""
         pause="hover"
