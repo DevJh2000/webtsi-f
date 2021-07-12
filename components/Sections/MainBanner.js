@@ -78,65 +78,82 @@ const MainBanner = () => {
         wrap={true}
         className="arduix-slider"
       >
-        {state
-          ? list.length > 0
-            ? list.map((data, index) => {
-                return (
-                  <Carousel.Item key={index}>
-                    <div
-                      key={index}
-                      className="arduix-slider-item d-block w-100"
-                      style={{
-                        width: "100%",
-                        height: "65rem",
-                        maxWidth: "100%",
-                        maxHeight: "60rem",
-                        backgroundImage: `url(${apilocalUrl}${data.imgback})`,
-                      }}
-                    >
-                      <div className="d-table">
-                        <div className="d-table-cell">
-                          <div className="container">
-                            <div className="arduix-slider-text overflow-hidden one">
-                              <span>{data.textheader}</span>
-                              <h1>{data.textbody}</h1>
-                              <p>{data.textfooter}</p>
+        {state ? (
+          list.length > 0 ? (
+            list.map((data, index) => {
+              return (
+                <Carousel.Item key={index}>
+                  <div
+                    key={index}
+                    className="arduix-slider-item d-block w-100"
+                    style={{
+                      width: "100%",
+                      height: "65rem",
+                      maxWidth: "100%",
+                      maxHeight: "60rem",
+                      backgroundImage: `url(${apilocalUrl}${data.imgback})`,
+                    }}
+                  >
+                    <div className="d-table">
+                      <div className="d-table-cell">
+                        <div className="container">
+                          <div className="arduix-slider-text overflow-hidden one">
+                            <span>{data.textheader}</span>
+                            <h1>{data.textbody}</h1>
+                            <p>{data.textfooter}</p>
 
-                              <div className="slider-btn">
-                                <Link
-                                  activeClass="active"
-                                  to="pri"
-                                  spy={true}
-                                  smooth={true}
-                                  offset={-70}
-                                  duration={500}
-                                  className="default-btn active"
-                                >
-                                  Precios
-                                </Link>
+                            <div className="slider-btn">
+                              <Link
+                                activeClass="active"
+                                to="pri"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                                className="default-btn active"
+                              >
+                                Precios
+                              </Link>
 
-                                <Link
-                                  activeClass="active"
-                                  to="contus"
-                                  spy={true}
-                                  smooth={true}
-                                  offset={-70}
-                                  duration={500}
-                                  className="default-btn white"
-                                >
-                                  Contactanos
-                                </Link>
-                              </div>
+                              <Link
+                                activeClass="active"
+                                to="contus"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                                className="default-btn white"
+                              >
+                                Contactanos
+                              </Link>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </Carousel.Item>
-                );
-              })
-            : ""
-          : ""}
+                  </div>
+                </Carousel.Item>
+              );
+            })
+          ) : (
+            <Carousel.Item key="1">
+              {" "}
+              <div
+                key={index}
+                className="arduix-slider-item d-block w-100"
+                style={{
+                  width: "100%",
+                  height: "65rem",
+                  maxWidth: "100%",
+                  maxHeight: "60rem",
+                  backgroundImage: `url(${apilocalUrl}/images/WebtsiLogo.png)`,
+                }}
+              ></div>
+            </Carousel.Item>
+          )
+        ) : (
+          ""
+        )}
       </Carousel>
     </section>
   );
