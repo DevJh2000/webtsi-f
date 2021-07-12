@@ -13,15 +13,10 @@ class Footer extends Component {
               <div className="col-lg-3 col-md-6">
                 <div className="single-widget">
                   <a href="/" className="logo">
-                    <img src="/images/white-logo.png" alt="Image" />
+                    <img src="/images/WebtsiLogo.png" alt="Image" />
                   </a>
 
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Quaerat molestiae corporis, magni maxime perferendis ducimus
-                    totam officiis sit exercitationem sed odio debitis minus
-                    cumque dolores dicta.
-                  </p>
+                  <p>TSI crecemos junto contigo</p>
 
                   <ul className="social-icon">
                     <li>
@@ -33,7 +28,7 @@ class Footer extends Component {
                         <i className="bx bxl-facebook"></i>
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="/#">
                         <a target="_blank">
                           <i className="bx bxl-twitter"></i>
@@ -60,7 +55,7 @@ class Footer extends Component {
                           <i className="bx bxl-youtube"></i>
                         </a>
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -187,7 +182,7 @@ class Footer extends Component {
                 </div>
               </div>
 
-              <div className="col-lg-3 col-md-6">
+              {/* <div className="col-lg-3 col-md-6">
                 <div className="single-widget">
                   <h3>Important Links</h3>
 
@@ -242,7 +237,7 @@ class Footer extends Component {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div> */}
 
               <div className="col-lg-3 col-md-6">
                 <div className="single-widget">
@@ -251,20 +246,21 @@ class Footer extends Component {
                   <ul className="information">
                     <li className="address">
                       <i className="flaticon-call"></i>
-                      <span>Phone</span>
-                      +882-569-756
+                      <span>Telefono</span>
+                      Tel. + (12) 1800-567-8990
                     </li>
 
                     <li className="address">
                       <i className="flaticon-envelope"></i>
-                      <span>Email</span>
-                      hello@jumpx.com
+                      <span>E-mail</span>
+                      mwleonc@gmail.com
                     </li>
 
                     <li className="address">
                       <i className="flaticon-maps-and-flags"></i>
-                      <span>Address</span>
-                      123, Western Road, Melbourne Australia
+                      <span>Direccion</span>
+                      jr. Callao por la entrada a recodo por la bajadita del
+                      mercado
                     </li>
                   </ul>
                 </div>
@@ -284,9 +280,7 @@ class Footer extends Component {
             <div className="row align-items-center">
               <div className="col-lg-4">
                 <div className="copy-right">
-                  <p>
-                    Copyright &copy; {currentYear} Jumpx. All Rights Reserved
-                  </p>
+                  <p>Copyright &copy; {currentYear} TSI</p>
                 </div>
               </div>
 
@@ -311,8 +305,11 @@ class Footer extends Component {
                 <div className="designed">
                   <p>
                     Designed By <i className="bx bx-heart"></i>{" "}
-                    <a href="https://envytheme.com/" target="_blank">
-                      EnvyTheme
+                    <a
+                      href="https://www.instagram.com/terokas_art/"
+                      target="_blank"
+                    >
+                      Terokas_Art
                     </a>
                   </p>
                 </div>

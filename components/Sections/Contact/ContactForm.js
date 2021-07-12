@@ -5,8 +5,9 @@ import { useForm } from "../../../hooks/useForm";
 import { useDispatch } from "react-redux";
 import { getList } from "../../../redux/actions/listData";
 const ContactForm = () => {
+  //Instanciamos el dispatch
   const dispatch = useDispatch();
-
+  //Declaramos el estado inicial de los datos
   const initialFormValuesEmail = {
     name: "",
     email: "",
@@ -14,16 +15,12 @@ const ContactForm = () => {
     subject: "",
     message: "",
   };
-
-  const [
-    formValuesEmail,
-    handleInputChangeEmail,
-    resetformValuesEmail,
-    setformValuesEmail,
-  ] = useForm(initialFormValuesEmail);
-
+  //Llamamos nuestro hook useForm para controlar el estado del formulario
+  const [formValuesEmail, handleInputChangeEmail, resetformValuesEmail] =
+    useForm(initialFormValuesEmail);
+  //Generamos un useState para controlar el estado del boton de envio
   const [buttonState, setButtonState] = useState(true);
-
+  //Funcion para cambiar el estado del boton
   const disableButtonNewPro = () => {
     setButtonState(false);
   };
@@ -31,7 +28,7 @@ const ContactForm = () => {
   const enableButtonNewPro = () => {
     setButtonState(true);
   };
-
+  //Funcion para enviar los datos al store haciendo un dispatch a nuestros reducers
   const sendEmail = async () => {
     if (formValuesEmail) {
       const body = formValuesEmail;
@@ -52,9 +49,8 @@ const ContactForm = () => {
         <div className="section-title">
           <h2>Envienos un mensaje</h2>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
-            quibusdam deleniti porro praesentium. Aliquam minus quisquam velit
-            in at nam.
+            Haganos saber sus dudas y nosotros le contestaremos en el menor
+            tiempo posible
           </p>
         </div>
 
@@ -153,7 +149,7 @@ const ContactForm = () => {
                         className="default-btn btn-two"
                         disabled={!buttonState}
                       >
-                        Send Message
+                        Enviar
                       </button>
                     </div>
                   </div>

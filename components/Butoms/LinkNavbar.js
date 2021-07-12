@@ -7,7 +7,7 @@ class LinkNavbar extends Component {
       <div className="others-options">
         <Link href="/">
           <a className="default-btn">
-            Log In <i className="bx bx-log-in-circle"></i>
+            Ir a Pagina X <i className="bx bx-log-in-circle"></i>
           </a>
         </Link>
       </div>
