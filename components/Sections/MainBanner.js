@@ -81,7 +81,7 @@ const MainBanner = () => {
                   <Carousel.Item key={index}>
                     <div
                       key={index}
-                      className="arduix-slider-item"
+                      className="arduix-slider-item d-block w-100"
                       style={{
                         width: "100%",
                         height: "65rem",

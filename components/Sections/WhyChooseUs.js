@@ -40,7 +40,7 @@ class WhyChooseUs extends Component {
                     <span>
                       03 <i className="flaticon-support"></i>
                     </span>
-                    <h3>MARCA PERSONALIZADAt</h3>
+                    <h3>MARCA PERSONALIZADA</h3>
                     <p>
                       Logo personalizado en el encabezado de los comprobantes.
                     </p>
