@@ -7,13 +7,13 @@ const SocialsButtons = () => {
   const mesa = {
     res: "wa.me/51998407723",
     text: {
-      ti: "** ERPS MAS ESPECIALIZADOS ( A MEDIDA CONSULTAR PRECIOS Y SOLICITAR REUNIÓN)",
+      ti: "Hola estoy interesado en sus servicios",
     },
   };
   return (
     <>
       <a
-        href="https://wa.me/51998407723?text=Hola%20estoy%20interesado%20en%20lo%20que%20ofrecen%20c:"
+        href={`https://${mesa.res}?text=${mesa.text.ti}`}
         target="_blank"
         className="wasa"
       >

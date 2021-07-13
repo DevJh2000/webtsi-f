@@ -59,7 +59,7 @@ const Pricing = () => {
           </ul>
           <div className="tab_content">
             <div className="tabs_item">
-              <div className="row">
+              <div className="row d-flex justify-content-around">
                 {list === null
                   ? ":C"
                   : list.map((data, index) => {

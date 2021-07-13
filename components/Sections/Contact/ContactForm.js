@@ -44,7 +44,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="main-contact-area pb-100">
+    <section className="main-contact-area pb-100" id="contus">
       <div className="container">
         <div className="section-title">
           <h2>Envienos un mensaje</h2>

@@ -8,9 +8,9 @@ class Footer extends Component {
     return (
       <>
         <footer className="footer-top-area pt-100 pb-70">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-3 col-md-6">
+          <div className="container  ">
+            <div className="row d-flex justify-content-around">
+              <div className="col-lg-2 col-md-2 col-sm-4">
                 <div className="single-widget">
                   <NewLink
                     activeClass="active"
@@ -58,39 +58,11 @@ class Footer extends Component {
                         <i className="bx bxl-twitter"></i>
                       </a>
                     </li>
-                    {/* <li>
-                      <Link href="/#">
-                        <a target="_blank">
-                          <i className="bx bxl-instagram"></i>
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/#">
-                        <a target="_blank">
-                          <i className="bx bxl-pinterest-alt"></i>
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/#">
-                        <a target="_blank">
-                          <i className="bx bxl-linkedin"></i>
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/#">
-                        <a target="_blank">
-                          <i className="bx bxl-youtube"></i>
-                        </a>
-                      </Link>
-                    </li> */}
                   </ul>
                 </div>
               </div>
 
-              <div className="col-lg-3 col-md-6">
+              <div className="col-lg-3 col-md-4">
                 <div className="single-widget">
                   <h3>Secciones</h3>
                   <ul>
@@ -198,7 +170,7 @@ class Footer extends Component {
                         to="contus"
                         spy={true}
                         smooth={true}
-                        offset={-70}
+                        offset={-100}
                         duration={500}
                         className="navbar-brand"
                       >
@@ -212,64 +184,7 @@ class Footer extends Component {
                 </div>
               </div>
 
-              {/* <div className="col-lg-3 col-md-6">
-                <div className="single-widget">
-                  <h3>Important Links</h3>
-
-                  <ul>
-                    <li>
-                      <Link href="/#">
-                        <a>
-                          <i className="right-icon bx bx-chevrons-right"></i>
-                          Search Engine
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/#">
-                        <a>
-                          <i className="right-icon bx bx-chevrons-right"></i>
-                          Online Support
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/#">
-                        <a>
-                          <i className="right-icon bx bx-chevrons-right"></i>
-                          Development
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/#">
-                        <a>
-                          <i className="right-icon bx bx-chevrons-right"></i>
-                          Pay Per Click
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/contact">
-                        <a>
-                          <i className="right-icon bx bx-chevrons-right"></i>
-                          Support
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/#">
-                        <a>
-                          <i className="right-icon bx bx-chevrons-right"></i>
-                          Application
-                        </a>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div> */}
-
-              <div className="col-lg-3 col-md-6">
+              <div className="col-lg-2 col-md-4">
                 <div className="single-widget">
                   <h3>Information</h3>
 
@@ -286,10 +201,7 @@ class Footer extends Component {
                       <i className="flaticon-envelope"></i>
                       <span>E-mail</span>
                       <p>mwleonc@gmail.com </p>
-                      <p>gerencia@tsi.pe </p>
-                      <p>faqtureserver@gmail.com</p>
                       <p>ventas@tsi.pe</p>
-                      <p>support@tsi.pe</p>
                     </li>
 
                     <li className="address">
@@ -309,7 +221,6 @@ class Footer extends Component {
           </div>
         </footer>
 
-        {/* Footer Bottom Area   */}
         <footer className="footer-bottom-area">
           <div className="container">
             <div className="row align-items-center">

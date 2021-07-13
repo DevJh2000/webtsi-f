@@ -5,7 +5,7 @@ import ContactForm from "./Contact/ContactForm";
 class ContactUs extends Component {
   render() {
     return (
-      <section className="offer-area pt-100 pb-70" id="contus">
+      <section className="offer-area pt-100 pb-70">
         <div className="container">
           <div className="section-title">
             <span>CONTACTANOS</span>
